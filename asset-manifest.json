@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/arjuncp9/amazone-prime-clone/static/css/main.e1bce907.css",
+    "main.js": "/arjuncp9/amazone-prime-clone/static/js/main.2cea774f.js",
+    "static/media/channels-logo-white._CB554929912_.png": "/arjuncp9/amazone-prime-clone/static/media/channels-logo-white._CB554929912_.664a4090984e27948b1c.png",
+    "index.html": "/arjuncp9/amazone-prime-clone/index.html",
+    "main.e1bce907.css.map": "/arjuncp9/amazone-prime-clone/static/css/main.e1bce907.css.map",
+    "main.2cea774f.js.map": "/arjuncp9/amazone-prime-clone/static/js/main.2cea774f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1bce907.css",
+    "static/js/main.2cea774f.js"
+  ]
+}
