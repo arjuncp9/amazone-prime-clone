@@ -1,0 +1,151 @@
+:root {
+    --primary-bg: rgba(0, 5, 13, 0.5);
+    --secondary-bg: rgba(128, 128, 128, 0.5);
+}
+
+.banner {
+    height: 700px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner.loading,
+.banner.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.banner--fade__bottom,
+.banner--fade__left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 700px;
+}
+
+.banner--fade__bottom {
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        var(--primary-bg),
+        rgb(0, 5, 13)
+    );
+}
+
+.banner--fade__left {
+    background-image: linear-gradient(
+        250deg,
+        transparent,
+        rgba(0, 5, 13, 0.1),
+        rgb(0, 5, 13)
+    );
+    width: 40%;
+}
+
+.banner__content {
+    position: absolute;
+    left: 3%;
+    top: 250px;
+    max-width: 600px;
+    padding: 20px;
+    z-index: 2;
+}
+
+.banner_title > h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner__description > p {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.banner__button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner__buttons > button {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 900;
+    background-color: var(--secondary-bg);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.banner__buttons > button:hover {
+    transform: scale(1.05);
+    background-color: rgba(128, 128, 128, 0.7);
+}
+
+.play__button {
+    padding: 10px 30px;
+    margin-right: 10px;
+    display: none;
+}
+
+.joinPrime__button {
+    padding: 5px 19px;
+}
+
+.myList__icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--secondary-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.myList__icon:hover {
+    transform: scale(1.1);
+    background-color: rgba(128, 128, 128, 0.7);
+}
+
+.myList__icon > img {
+    width: 50px;
+    filter: brightness(0) invert(1);
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 500px;
+    }
+    
+    .banner--fade__bottom,
+    .banner--fade__left {
+        height: 500px;
+    }
+    
+    .banner_title > h1 {
+        font-size: 2.5rem;
+    }
+    
+    .banner__content {
+        top: 150px;
+        max-width: 90%;
+    }
+    
+    .banner--fade__left {
+        width: 70%;
+    }
+}
