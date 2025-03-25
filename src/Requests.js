@@ -17,5 +17,5 @@ const requests = {
 
     Documentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
 };
-
+export  const ApiKey = API_KEY ;
 export default requests;

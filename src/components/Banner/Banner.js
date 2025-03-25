@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../Banner/Banner.css';
-import pluseIcon from '../images/png_58yos.png';
+import pluseIcon from '../../asset/png_58yos.png';
 import axios from "../../axios.js";
 import requests from "../../Requests.js";
 

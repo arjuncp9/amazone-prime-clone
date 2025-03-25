@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import '../Nav/Nav.css'
-import logo from "../images/logo-min-remaster.png"
-import search from '../images/png_yrlry.png'
+import logo from "../../asset/logo-min-remaster.png"
+import search from '../../asset/png_yrlry.png'
 
 function Nav() {
   const [show, handleShow] = useState(false);

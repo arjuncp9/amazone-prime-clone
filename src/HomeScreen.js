@@ -10,7 +10,7 @@ function HomeScreen() {
     <div>
       <Nav />
       <Banner />
-      <Row title="Popular Indian movies" fetchUrl={requests.trending} />
+      <Row title="Popular Indian movies" fetchUrl={requests.trending} isLargeRow />
       <Row title="Popular action thrillers" fetchUrl={requests.action} />
       <Row title="Comady movies" fetchUrl={requests.ComedyMovies} />
       <Row title="Horror movies" fetchUrl={requests.HorrorMovies} />

@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Footer/Footer.css";
-import logo from '../images/channels-logo-white._CB554929912_.png';
+import logo from '../../asset/channels-logo-white._CB554929912_.png';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
