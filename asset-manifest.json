@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/amazone-prime-clone/static/css/main.d802d04d.css",
-    "main.js": "/amazone-prime-clone/static/js/main.682db05e.js",
+    "main.css": "/amazone-prime-clone/static/css/main.5b2f042a.css",
+    "main.js": "/amazone-prime-clone/static/js/main.31571665.js",
     "static/media/channels-logo-white._CB554929912_.png": "/amazone-prime-clone/static/media/channels-logo-white._CB554929912_.664a4090984e27948b1c.png",
     "index.html": "/amazone-prime-clone/index.html",
-    "main.d802d04d.css.map": "/amazone-prime-clone/static/css/main.d802d04d.css.map",
-    "main.682db05e.js.map": "/amazone-prime-clone/static/js/main.682db05e.js.map"
+    "main.5b2f042a.css.map": "/amazone-prime-clone/static/css/main.5b2f042a.css.map",
+    "main.31571665.js.map": "/amazone-prime-clone/static/js/main.31571665.js.map"
   },
   "entrypoints": [
-    "static/css/main.d802d04d.css",
-    "static/js/main.682db05e.js"
+    "static/css/main.5b2f042a.css",
+    "static/js/main.31571665.js"
   ]
 }
